@@ -1,0 +1,66 @@
+.header {
+    background: red;
+    position: fixed;
+    height: 60px;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header > div:first-child {
+    display: flex;
+}
+
+.header .divBurger {
+    padding: 5px;
+}
+
+.header .divBurger span { 
+    display: block;
+    height: 2px;
+    width: 30px;
+    background: #fff;
+    border-radius: 1px;
+    margin: 10px;
+}
+
+.header .divImg {
+    display: flex;
+    align-items: center;
+}
+
+.header .divImg img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.header > div:last-child {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header div.divSearch {
+    margin-right: 20px;
+}
+
+.header div.divSearch input {
+    border-radius: 5px;
+    border: 0;
+    height: 30px;
+    width: 500px;
+}
+
+.header div.divContacts {
+    margin-right: 20px;
+    color: #fff;
+}
+
+.header div.divContacts > *{
+    padding: 0 10px;
+    width: 30px;
+    height: 30px;
+}
