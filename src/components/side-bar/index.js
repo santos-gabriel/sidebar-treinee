@@ -1,9 +1,10 @@
+import SideBarItem from '../side-bar-item/sideBarItem';
 import style from './styles.module.css';
 
 function SideBar() {
   return (
     <div className={style.test}>
-      <p>Hello SideBar!</p>
+      <SideBarItem icon='fa-brands fa-whatsapp' />
     </div>
   );
 }

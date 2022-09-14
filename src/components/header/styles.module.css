@@ -1,5 +1,5 @@
 .header {
-    background: red;
+    background: rgb(5, 94, 87);
     position: fixed;
     height: 60px;
     width: 100vw;
@@ -7,6 +7,7 @@
     left: 0;
     display: flex;
     justify-content: space-between;
+    color: #fff;
 }
 
 .header > div:first-child {
@@ -34,6 +35,7 @@
 .header .divImg img {
     max-width: 100px;
     max-height: 100px;
+    margin: 0 20px;
 }
 
 .header > div:last-child {

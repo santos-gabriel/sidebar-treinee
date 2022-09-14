@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {  faYoutube, faLinkedin, faGithub, faTwitter, faFacebook, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import icons from '../shared/icons';
 
 
 import style from './styles.module.css';
@@ -24,12 +24,12 @@ function Header() {
           <input type="text" placeholder='Pesquise aqui'/>
         </div>
         <div className={style.divContacts}>
-          <FontAwesomeIcon icon={faWhatsapp} />
-          <FontAwesomeIcon icon={faFacebook} />
-          <FontAwesomeIcon icon={faTwitter} />
-          <FontAwesomeIcon icon={faGithub} />
-          <FontAwesomeIcon icon={faLinkedin} />
-          <FontAwesomeIcon icon={faYoutube} />
+          <FontAwesomeIcon icon={icons.whatsapp} />
+          <FontAwesomeIcon icon={icons.facebook} />
+          <FontAwesomeIcon icon={icons.twitter} />
+          <FontAwesomeIcon icon={icons.github} />
+          <FontAwesomeIcon icon={icons.linkedin} />
+          <FontAwesomeIcon icon={icons.youtube} />
         </div>
       </div>
     </div>
