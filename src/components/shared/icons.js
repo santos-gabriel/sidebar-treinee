@@ -1,4 +1,5 @@
-import { faWhatsapp, faFacebook, faTwitter, faGithub, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons';          
+import { faWhatsapp, faFacebook, faTwitter, faGithub, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faGears, faShare } from '@fortawesome/free-solid-svg-icons';
 
 const icons = {
     whatsapp: faWhatsapp,
@@ -7,6 +8,8 @@ const icons = {
     github: faGithub,
     linkedin: faLinkedin,
     youtube: faYoutube,
+    gears: faGears,
+    share: faShare,
 }
 
 export default icons;
