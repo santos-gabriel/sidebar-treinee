@@ -5,7 +5,7 @@ import style from './styles.module.css';
 
 function SideBarItem(props) {
   return (
-    <div className={style.test}>      
+    <div>
       <FontAwesomeIcon icon={props.icon} />
     </div>
   );

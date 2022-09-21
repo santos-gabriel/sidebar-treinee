@@ -1,7 +1,38 @@
-.test {
-    background: green;
+.sideBar {
+    background: rgb(5, 84, 78);
     position: fixed;
     height: 100vh;
     width: 250px;
     left: 0;
+}
+
+.sideBarMenu {
+    
+}
+.sideBarMenuItem {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #FFF;
+    margin: 10px 0;
+    border-bottom: solid 1px rgb(111, 109, 109);
+    padding: 10px 10px;
+}
+
+.sideBarMenuItem div {
+    /*margin-right: 5px;
+    padding: 0 5px;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.sideBarMenuItem .sideBarMenuItemIcons {
+    width: 50px;
+    max-width: 50px;
+    min-width: 50px;
+    margin-right: 5px;
+}
+
+.sideBarMenu div:last-child {
+    border-bottom: 0;
 }
