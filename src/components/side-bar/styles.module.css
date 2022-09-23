@@ -19,11 +19,20 @@
     padding: 10px 10px;
 }
 
-.sideBarMenuItem div {
+.sideBarMenuItemLabel {
+    width: 100%;
+}
+
+.sideBarMenuItem div:first-child {
     /*margin-right: 5px;
     padding: 0 5px;*/
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.sideBarMenuItemLabel:hover {
+    cursor: pointer;
+    background: rgba(116, 116, 116, 0.57);
 }
 
 .sideBarMenuItem .sideBarMenuItemIcons {
@@ -35,4 +44,27 @@
 
 .sideBarMenu div:last-child {
     border-bottom: 0;
+}
+
+.subList {
+    padding: 10px 0 0 50px;
+}
+
+.subList ul {
+    list-style-type: none;
+}
+
+.subList ul li {
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+
+.subList ul li:hover {
+    cursor: pointer;
+    background: rgba(116, 116, 116, 0.57);
+}
+
+
+.sideBarMenuItemSubLis {
+    flex-wrap: wrap;
 }
